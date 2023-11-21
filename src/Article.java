@@ -2,6 +2,7 @@ public class Article {
 
     private int reference;
     private String designation;
+
     private int prix;
 
     public Article(int reference, String designation, int prix) {
