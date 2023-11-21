@@ -4,16 +4,13 @@ import java.util.Date;
 public class Magasin {
 
     private ArrayList<Article> arts;
-    private int nbrDVD = 10;
-    private int nbrLivre = 10;
+    private int nbrarticles=20;
 
     public Magasin() {
         arts = new ArrayList<Article>();
-        for (int i = 0; i < (nbrDVD - 1); i++) {
+        for (int i = 0; i < (nbrarticles - 1); i++) {
             arts.add(new DVD(1 + i, "DVD ", 50 + i, 60 + i, new Realisateur("Duval", "Pierre", new Date())));
-        }
-        for (int j = nbrDVD; j < (nbrLivre - 1); j++) {
-            arts.add(new Livre(1 + j, "Livre", 50 + j, 100 + j, 33 + j, new Auteur("Henry", "Jean", new Date())));
+            arts.add(new Livre(1 + i, "Livre", 50 + i, 100 + i, 33 + i, new Auteur("Henry", "Jean", new Date())));
         }
     }
 
@@ -26,13 +23,21 @@ public class Magasin {
         }
         return arrayList;
     }
+    public ArrayList<Article> getListRealis() {
+        ArrayList<Article> arrayList = new ArrayList<Article>();
+        for (Article art : arts) {
+            if (art instanceof DVD) {
+                arrayList.add(art);
+            }
+        }
+        return arrayList;
+    }
 
     @Override
     public String toString() {
         return "Magasin{" +
                 "arts=" + arts +
-                ", nbrDVD=" + nbrDVD +
-                ", nbrLivre=" + nbrLivre +
+                ", nbrarticles=" + nbrarticles +
                 '}';
     }
 }

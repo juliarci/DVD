@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9dc343-f0ff-44df-a020-8d6e9342db44" name="Changes" comment="First commit">
+    <list default="true" id="1f9dc343-f0ff-44df-a020-8d6e9342db44" name="Changes" comment="Add magasin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Magasin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Magasin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +62,24 @@
       <option name="presentableId" value="Default" />
       <updated>1700466870154</updated>
       <workItem from="1700466871644" duration="6000" />
-      <workItem from="1700573747046" duration="372000" />
+      <workItem from="1700573747046" duration="1257000" />
     </task>
+    <task id="LOCAL-00001" summary="Add magasin">
+      <option name="closed" value="true" />
+      <created>1700574249572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700574249572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add magasin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add magasin" />
   </component>
 </project>
